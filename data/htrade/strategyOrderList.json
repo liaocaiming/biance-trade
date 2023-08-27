@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "addTime": "2020-06-09",
+      "strategyName": "哈哈",
+      "statusName": "停用",
+      "status": 2,
+      "pushText": "哈哈",
+      "stop_loss_num": 11,
+      "stop_profit_num": 2,
+      "remark": "大户",
+      "id": 12333,
+      "mul": 50,
+      "strategyType": "rf4",
+      "is_stop_profit": "是",
+      "is_stop_loss": "否",
+      "stop_profit_target": 2.4
+    }
+  ],
+  "count": 100,
+  "pageSize": 1,
+  "pageNo": 1
+}

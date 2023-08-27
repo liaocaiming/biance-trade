@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 2,
+      "uuid": "123456",
+      "email": "test@163.com",
+      "name": "VIP用户",
+      "remark": "VIP用户",
+      "binance_user_id": "test_binance_user_id",
+      "stop": false,
+      "bot_account": false,
+      "start_bot": false,
+      "user_type": 3,
+      "bot_time": null,
+      "expire_time": "2022-04-13",
+      "created_at": "2021-04-13 17:34:59",
+      "updated_at": "2021-04-13 17:34:59",
+      "error": "fdafdasfds",
+      "bot_infos": [
+        {
+          "follow_sum": 1,
+          "loss_sum": 0,
+          "success_sum": 1,
+          "set_type": 1,
+          "profit_loss": "10",
+          "start_date": "2021-04-13 17:34:59",
+          "end_date": null,
+          "is_current": true
+        }
+      ]
+    }
+  ],
+  "count": 6
+}

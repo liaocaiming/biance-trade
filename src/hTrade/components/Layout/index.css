@@ -1,0 +1,45 @@
+.layout-system-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  height: 64px;
+  line-height: 64px;
+}
+
+.ant-layout-header {
+  background: #ffffff!important;
+  border-bottom: 1px solid #999;
+
+}
+
+.layout-header {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.layout-title {
+  text-align: center;
+  flex: auto;
+}
+
+.layout-content {
+  padding: 10px 20px;
+  min-height: 80vh;
+  background: #ffffff;
+}
+
+.layout-side {
+  min-height: 100vh;
+  width: 200px;
+  position: fixed;
+  z-index: 3;
+
+}

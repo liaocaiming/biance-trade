@@ -1,0 +1,197 @@
+.home-list-item {
+  width: 345px;
+  height: 344px;
+  line-height: 1;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #283871 0%, #1B65C9 100%);
+
+  &.cur {
+    background: linear-gradient(180deg, #283871 0%, #1B65C9 100%);
+    .th, .tr-1, .tr-3 {
+      background: #234C97;
+    }
+  }
+
+  &.success {
+    background: linear-gradient(180deg, #244447 0%, #0BC976 100%);
+    .th, .tr-1, .tr-3 {
+      background: #18855E;
+    }
+  }
+
+  &.failed {
+    background: linear-gradient(180deg, #3B3646 0%, #B23D5D 100%);
+    .th, .tr-1, .tr-3 {
+      background: #723951;
+    }
+  }
+
+  .symbol-container {
+    padding: 15px;
+    padding-bottom: 0;
+    display: flex;
+    margin-bottom: 30px;
+
+    .img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+      }
+    }
+
+    .icon {
+
+      .icon-name {
+        font-size: 16px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        line-height: 28px;
+        color: #FFFFFF;
+        opacity: 1;
+      }
+
+      .s_type {
+
+        font-size: 12px;
+      }
+    }
+
+    .time {
+      font-size: 6px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      line-height: 12px;
+      color: #FFFFFF;
+      text-align: right;
+      flex: 1;
+      .stime,
+      .update-time {
+        opacity: 0.6;
+      }
+      .star {
+        text-align: right;
+        margin-bottom: 5px;
+
+        img {
+          width: 14px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .list-item {
+    margin-bottom: 15px;
+    padding: 0 15px;
+
+    .leverage {
+      color: #00C873;
+    }
+
+    &-label {
+      font-size: 12px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      line-height: 17px;
+      color: #FFFFFF;
+      margin-bottom: 7px;
+    }
+
+    .label {
+      opacity: 0.6;
+      font-size: 10px;
+      font-weight: 400;
+    }
+
+    .loss {
+      color: #FF3750;
+    }
+
+    .list-item-label {
+      min-height: 17px;
+    }
+
+    .detail-first {
+      display: flex;
+      justify-content: space-between;
+      .flow-btn {
+        padding: 1px 10px;
+        border: 1px solid #096dd9;
+        border-radius: 10px;
+        background-color: #224c97;
+      }
+    }
+  }
+
+
+  .table {
+
+    .row {
+      padding: 0 15px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      .td-0 {
+        flex: 1;
+      }
+
+      .td-1 {
+        flex: 3;
+        text-align: center;
+      }
+
+      .td-2 {
+        flex: 2;
+        text-align: center;
+      }
+
+      .td-3 {
+        flex: 3;
+        text-align: center;
+      }
+
+      .td-4 {
+        flex: 1;
+        text-align: right;
+      }
+    }
+
+    .th {
+      opacity: 0.6;
+    }
+
+    .tr {
+      .sort {
+        width: 14px;
+        height: 14px;
+        background: #3B3646;
+        line-height: 14px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 2px;
+      }
+
+      .status {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .status-img {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 2,
+      "email": "test@163.com",
+      "name": "VIP用户",
+      "phone": null,
+      "remark": "VIP用户",
+      "binance_user_id": "test_binance_user_id",
+      "invite_code": "5b9f4a665975ed255310",
+      "stop": false,
+      "bot_account": false,
+      "start_bot": false,
+      "user_type": 3,
+      "bot_time": null,
+      "expire_time": "2022-04-13",
+      "created_at": "2021-04-13 17:34:59",
+      "updated_at": "2021-04-13 17:34:59",
+    }
+  ],
+  "count": 1000
+}

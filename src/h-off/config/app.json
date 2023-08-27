@@ -1,0 +1,7 @@
+
+{
+  "version": "1.0.1",
+  "name": "boss",
+  "testPublicPath": "https://www.baidu.com",
+  "proPublicPath": "https://www.liaocaiming.site"
+}

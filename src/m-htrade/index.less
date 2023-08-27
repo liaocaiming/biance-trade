@@ -1,0 +1,89 @@
+@import "./styles/base";
+@import "./styles/reset.less";
+
+body {
+  background: @bg;
+  color: @color;
+  font-size: @fontSize;
+  overflow-x: hidden;
+}
+
+#app {
+  height: 100%;
+}
+
+.margin_bottom_10 {
+  margin-bottom: 10px;
+}
+
+.margin_top_20 {
+  margin-bottom: 20px;
+}
+
+.margin_top_30 {
+  margin-bottom: 30px;
+}
+
+.margin_right_5 {
+  margin-right: 5px;
+}
+
+.margin_right_20 {
+  margin-right: 20px;
+}
+
+.margin_left_5 {
+  margin-left: 5px;
+}
+
+.skip-btn {
+  display: inline-block;
+  width: 62px;
+  height: 30px;
+  background: #3e475a;
+  opacity: 1;
+  border-radius: 15px;
+  font-size: 14px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.submit-btn {
+  width: 314px;
+  height: 52px;
+  background: linear-gradient(315deg, #7e00ff 0%, #0078ff 100%);
+  opacity: 1;
+  border-radius: 26px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: ""; /*不用有内容也可以*/
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}

@@ -1,0 +1,67 @@
+@border-color: rgba(0, 0, 0, 0.3); //
+@background-color: rgba(0, 0, 0, 0.6);
+
+.form-read-only {
+  // 联动组件
+  .ant-cascader-picker-disabled {
+    color: rgba(0, 0, 0, 0.85);
+    background: none;
+    cursor: initial;
+
+    .ant-cascader-input {
+      cursor: initial;
+      border: none;
+    }
+
+    .ant-cascader-picker-label {
+      padding-left: 0;
+    }
+
+    .ant-cascader-picker-arrow {
+      display: none;
+    }
+  }
+
+  // 多选框
+  .ant-checkbox-wrapper-checked.ant-checkbox-wrapper-disabled {
+    .ant-checkbox-inner {
+      border-color: @border-color !important;
+      background-color: transparent;
+
+      &:after {
+        border-color: @background-color;
+      }
+    }
+
+    .ant-checkbox-disabled + span {
+      color: #333;
+    }
+  }
+
+  // 单选框
+  .ant-radio-wrapper-checked.ant-radio-wrapper-disabled {
+    .ant-radio-inner {
+      border-color: @border-color !important;
+
+      &:after {
+        background-color: @background-color;
+      }
+    }
+
+    .ant-radio-disabled + span {
+      color: #333;
+    }
+  }
+
+  .readonly-range-separator {
+    margin: 0 4px;
+  }
+
+  .textarea-readonly {
+    margin-top: 5px;
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}

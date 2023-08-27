@@ -1,0 +1,26 @@
+{
+  "code": 200,
+  "data": {
+    "side": true,
+    "leverage": 50,
+    "symbol": "BTCUSDT",
+    "order_type": 1,
+    "status": 2,
+    "avg_price": 2.0,
+    "profit_loss": 3,
+    "current_quantity": 3,
+    "residue_entry_amount": 3,
+    "current_margin": 3,
+    "next_profit_price": 3,
+    "next_loss_price": 4,
+    "created_at": "2020-09-05",
+    "price": 12,
+    "quantity": 3333,
+    "follow_record_messages": [
+      {
+        "created_at": "2020-09-05",
+        "message": "fdafsfdsfd"
+      }
+    ]
+  }
+}

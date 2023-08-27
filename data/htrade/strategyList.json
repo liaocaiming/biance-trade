@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "strategyName": "哈哈",
+      "statusName": "停用",
+      "status": 2,
+      "pushText": "哈哈",
+      "stop_loss_num": 11,
+      "stop_profit_num": 2,
+      "remark": "大户",
+      "id": 12333
+    }
+  ],
+  "count": 111
+}

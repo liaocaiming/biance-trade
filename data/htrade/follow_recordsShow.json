@@ -1,0 +1,25 @@
+{
+  "code": 200,
+  "data": {
+    "follow_record_infos": [
+      {
+        "client_order_id": "xxxx",
+        "side": true,
+        "price": "10.0",
+        "quantity": "100",
+        "profit_loss": "0",
+        "cummulative_quote_qty": "1000",
+        "remark": "xxx",
+        "is_bot": true,
+        "trade_time": "1618488096000"
+      }
+    ],
+    "follow_record_messages": [
+      {
+        "message": "当前余额不足,无法买入",
+        "created_at": "2021-03-30 21:30:24"
+      }
+    ]
+  },
+  "count": 6
+}

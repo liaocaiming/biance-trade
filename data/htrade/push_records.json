@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "trade_signal_id": 5,
+      "symbol": "VETUSDT",
+      "signal_type": "H-A202",
+      "period_type": "2",
+      "set_type": "1",
+      "long": true,
+      "leverage": "1",
+      "push_time": "2021-03-25T20:12:40.000+08:00",
+      "dist": "0.067,0.068,0.069,0.07",
+      "dist_index": 4,
+      "dist_profit_rate": "6.7%,17.6%,46.0%,74.5%",
+      "show_dist_profit_rate": "8.1%,19.1%,47.9%,76.7%",
+      "dist_time": "1616697620000,1616797982000,1617711983000,1618021223000",
+      "spend_time": "7小时内,2天内,13天内,16天内",
+      "code": "782d7b5b95f1562154a0",
+      "entry": "0.066529,0.077051",
+      "entry_price": "0.076072",
+      "loss": "0.0598761",
+      "loss_rate": "10.0%",
+      "loss_time": null,
+      "loss_spend_time": null,
+      "done": 1,
+      "p_type": 2,
+      "created_at": "2021-04-11 16:41:54",
+      "updated_at": "2021-04-11 16:43:11",
+    }
+  ],
+  "count": 1
+}

@@ -1,0 +1,26 @@
+.search-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 34px;
+  width: 168px;
+  background: #202630;
+  border-radius: 4px;
+  .text {
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    background: url('./icon-triangle-bottom.png') no-repeat;
+    background-size: contain;
+    margin-left: 5px;
+  }
+}

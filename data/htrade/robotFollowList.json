@@ -1,0 +1,25 @@
+{
+  "code": 200,
+  "data": {
+    "dataList": [
+      {
+        "email": "1235555@qq.com0",
+        "userName": "哈哈",
+        "biance_id": 123223,
+        "addTime": "2020-09-19",
+        "remark": "大户",
+        "invitees": "fff",
+        "is_pay_member": 1,
+        "is_experience_user": 2,
+        "due_day": "2020-09-09",
+        "pay_type": "1",
+        "is_open_robot": 2,
+        "api": "4f4dsa64f65dfaf46",
+        "secret": "4654564645466644"
+      }
+    ],
+    "pageNo": 1,
+    "totalCount": 1000,
+    "pageSize": 10
+  }
+}

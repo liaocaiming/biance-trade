@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "user_id": 1,
+      "id": 1,
+      "message": "xxx手动平仓了BTCUSDT",
+      "process": false
+    },
+    {
+      "user_id": 1,
+      "id": 2,
+      "message": "xxx手动平仓了BTCUSDT",
+      "process": false
+    },
+    {
+      "user_id": 1,
+      "id": 3,
+      "message": "xxx手动平仓了BTCUSDT",
+      "process": true
+    }
+  ],
+  "count": 1
+}

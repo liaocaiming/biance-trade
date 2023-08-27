@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "name": "hTrade",
+  "testPublicPath": "https://www.baidu.com",
+  "proPublicPath": "https://www.liaocaiming.site"
+}

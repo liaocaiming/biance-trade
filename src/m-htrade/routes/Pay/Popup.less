@@ -1,0 +1,110 @@
+.pay-popup {
+  height: 502px;
+  background: #2E3546;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 22px 15px 50px;
+
+  .title {
+    text-align: center;
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 700;
+    opacity: 1;
+    position: relative;
+    color: #fff;
+  }
+
+  .close {
+    position: absolute;
+    right: 0;
+    width: 14px;
+    height: 14px;
+    background: url('./images/icon-close.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .form-item-textid {
+    .label {
+      color: #fff;
+    }
+  }
+
+  .paste {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+
+  .pay-content {
+    width: 345px;
+    height: 169px;
+    background: url('./images/pay-address-bg.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    padding: 20px;
+
+    .pay-num {
+      color: #fff;
+      margin-bottom: 30px;
+
+      .num {
+        font-size: 20px;
+      }
+    }
+
+    .address {
+      display: flex;
+
+      .right {
+        width: 68px;
+        height: 68px;
+        margin-left: 25px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .left {
+        flex: 1;
+        word-break: break-all;
+      }
+
+      .copy {
+        margin-left: 10px;
+      }
+
+      .trx {
+        margin-bottom: 10px;
+      }
+
+      .address-str {
+        font-size: 14px;
+        font-family: PingFang SC;
+        line-height: 17px;
+        color: #6D778B;
+      }
+    }
+  }
+
+  .agree-container {
+    .agree {
+      margin: 0 5px;
+      color: #6D778BFF;
+    }
+    
+  }
+}
+
+.none {
+  display: none;
+}

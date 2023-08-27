@@ -1,0 +1,22 @@
+.robotFollowList {
+  .tips {
+    color: red;
+  }
+
+  #appForm {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .error {
+    &::before {
+      display: inline-block;
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: red;
+      border-radius: 100%;
+      margin-right: 5px;
+    }
+  }
+}

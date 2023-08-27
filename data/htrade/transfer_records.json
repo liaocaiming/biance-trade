@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "user_id": "1",
+      "asset": "USDT",
+      "amount": "1000",
+      "t_type": "MAIN_C2C",
+      "t_type_message": "现货钱包转向C2C钱包",
+      "tran_id": 11415955596,
+      "timestamp": 1544433328000,
+      "transaction_fee": "0",
+      "tx_id": "",
+      "address": "",
+      "status": 6
+    }
+  ],
+  "count": 1
+}

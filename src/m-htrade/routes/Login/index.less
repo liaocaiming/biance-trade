@@ -1,0 +1,65 @@
+.mb-login {
+  height: 100%;
+  padding: 0 15px;
+  background: #111622;
+
+  .tab-container {
+    padding-left: 21px;
+    padding-top: 88px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+
+  .form-container {
+    background: #2E3546;
+    padding: 20px;
+    padding-bottom: 20px;
+
+    .eye {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -5px;
+      width: 18px;
+      height: auto;
+
+
+    }
+  }
+
+  .go-login {
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 22px;
+    color: #6D778B;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .register-btn {
+      margin-right: 50px;
+    }
+
+    .text {
+      &::after {
+        content: '';
+        display: inline-block;
+        font-size: 0;
+        width: 7px;
+        height: 13px;
+        background: url('./images/icon-a-right.png') no-repeat;
+        background-size: 100% 100%;
+        margin-left: 5px;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+}

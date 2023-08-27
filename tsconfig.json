@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    // "declaration": true,
+    "strictNullChecks": true,
+    "module": "ESNext",
+    "target": "es2015",
+    "jsx": "react",
+    "allowJs": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "typeRoots": [
+      "./typings"
+    ],
+    "paths": {
+      "@utils/*": [
+        "src/@shared/utils/*"
+      ],
+      "@shared/*": [
+        "src/@shared/*"
+      ],
+      "@screens/*": [
+        "src/@screens/*"
+      ],
+      "@containers/*": [
+        "src/@shared/containers/*"
+      ],
+      "@typings/*": [
+        "typings/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/@shared/components/*"
+      ]
+    },
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "typings"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "./src/**/*.js",
+    "**/**/**.js",
+  ]
+}
