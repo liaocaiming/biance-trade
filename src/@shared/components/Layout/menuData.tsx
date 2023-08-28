@@ -1,15 +1,19 @@
+import React from 'react';
+import { PieChartOutlined, BarChartOutlined } from '@ant-design/icons'
 export default [
   {
     "key": "rate",
     "title": "汇率柱形统计图",
     "hasChild": 0,
     "menuType": 1,
+    icon: <BarChartOutlined />
   },
   {
     "key": "test",
     "title": "测试",
     "hasChild": 0,
     "menuType": 1,
+    icon: <PieChartOutlined />
   },
 
   // {

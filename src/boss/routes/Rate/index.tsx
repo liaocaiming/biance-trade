@@ -1,27 +1,8 @@
 import * as React from "react";
-import dateFormat from "@utils/lib/dateFormat";
 import "./index.less";
 import { api } from "@src/boss/config";
 import { Chart } from "@antv/g2";
-import { searchRowData, coinType } from "./constants";
 import { connect } from "@src/boss/reducers/index";
-import formatNumber from "@utils/lib/formatNumber";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Label, LabelList, LineChart, Line, } from "recharts";
-import { GroupSearch, Toggle } from "@components/index";
-import { intervals } from "@utils/lib/constants";
-
-interface IPort {
-  url: string;
-  key:
-  | "forceOrders"
-  | "openInterest"
-  | "openInterestHist"
-  | "longShortAccountRatio"
-  | "longShortPositionRatio"
-  | "longShortUserRatio"
-  | "longShortTakerRatio";
-  params: any;
-}
 
 interface IProps {
   [random: string]: any;
@@ -126,12 +107,11 @@ export default class App extends React.PureComponent<IProps, IState> {
     if (!this.chart) {
       this.chart = new Chart({
         container: "container",
-        // autoFit: true,
         width: width,
         height: 500,
         limitInPlot: false,
         localRefresh: false,
-        padding: [100, 100, 100, 100],
+        padding: [20, 20, 20, 20],
       })
     }
 
@@ -171,9 +151,6 @@ export default class App extends React.PureComponent<IProps, IState> {
       }
       this.chart
         .annotation()
-        // .encode('x', 'lastFundingRate')
-        // .encode('y', 'symbol')
-        // .axis('y', { labelFormatter: '.0%' })
         .text({
           position: [item.symbol, item.lastFundingRate],
           content: item.symbol,
@@ -207,7 +184,7 @@ export default class App extends React.PureComponent<IProps, IState> {
     return (
       <div className="rate">
         <div>
-          <h3>币安汇率</h3>
+          <h3>汇率</h3>
           <div style={{ overflowX: "auto", width: "100%" }}>
             <div
               id="container"
