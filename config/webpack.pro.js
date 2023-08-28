@@ -3,7 +3,7 @@ const uglify = require('uglifyjs-webpack-plugin');
 const configFn = require('./webpack.config');
 const cleanWebpackPlugin = require('clean-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const chalk = require('chalk');
+// const chalk = require('chalk');
 const program = require('commander');
 const inquirer = require('inquirer');
 const Prompt = require('./prompt');
@@ -28,7 +28,7 @@ const plugin = [
   new OptimizeCssAssetsPlugin(),
 ];
 
-const compressing = require('compressing');
+// const compressing = require('compressing');
 
 function build(options) {
   const { name, company } = options;
@@ -63,18 +63,18 @@ function build(options) {
       return;
     }
 
-    compressing.zip
-      .compressDir(
-        utils.resolve(`docs/${name}`),
-        utils.resolve(`docs/${zipName}`),
-      )
-      .then(() => {
-        console.log(chalk.yellow(`Tip: 文件压缩成功，已压缩至【${zipName}】`));
-      })
-      .catch(err => {
-        console.log(chalk.red('Tip: 压缩报错'));
-        console.error(err);
-      });
+    // compressing.zip
+    //   .compressDir(
+    //     utils.resolve(`docs/${name}`),
+    //     utils.resolve(`docs/${zipName}`),
+    //   )
+    //   .then(() => {
+    //     console.log(chalk.yellow(`Tip: 文件压缩成功，已压缩至【${zipName}】`));
+    //   })
+    //   .catch(err => {
+    //     console.log(chalk.red('Tip: 压缩报错'));
+    //     console.error(err);
+    //   });
   });
 }
 
